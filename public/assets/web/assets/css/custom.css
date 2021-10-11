@@ -1,0 +1,57 @@
+.top-bar {
+    background: #222222;
+}
+
+#header,
+#header.box-header .box-header-wrap,
+#header.sticky-header.box-header {
+    background: #ffffff;
+}
+
+.main-nav ul li .dropdown {
+    background: #ffffff;
+}
+
+#header .dropdown-items>li {
+    background: #ffffff;
+}
+
+#header.static-header .main-nav>ul>li>a,
+#header.box-header .box-header-wrap .main-nav>ul>li>a {
+    color: #666
+}
+
+#header .dropdown-items>li a {
+    color: #666
+}
+
+#header.static-header .main-nav>ul>li>a:hover,
+#header.box-header .box-header-wrap .main-nav>ul>li>a:hover {
+    color: #32c8de
+}
+
+#header .dropdown-items>li a:hover {
+    color: #32c8de
+}
+
+#header.static-header .main-nav>ul>.active>a {
+    color: #32c8de
+}
+
+#header .dropdown-items>.active a {
+    color: #32c8de
+}
+
+.home-search-panel {
+    padding: 15px 0 0 0;
+    border-top: 2px solid #bbb;
+    background-image: linear-gradient(20deg, rgb(191, 53, 157), rgb(220, 76, 53), rgb(253, 255, 129));
+    background-image: linear-gradient(to right top, rgb(25, 182, 143), rgb(68, 100, 148));
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125)) repeat scroll 0% 0%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176)) repeat scroll 0% 0%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(103, 178, 111), rgb(76, 162, 205)) repeat scroll 0% 0%;
+}
+
+.irs-grid-text {
+    color: #fff !important;
+}

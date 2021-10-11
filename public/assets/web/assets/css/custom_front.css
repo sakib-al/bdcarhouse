@@ -1,0 +1,335 @@
+/* CSS for Front view Web Page */
+
+/* CSS SPACE */
+
+.little_top_m{
+    margin-top: 2%;
+}
+
+.mid_top_m{
+    margin-top: 4%;
+}
+.little_bottom_m{
+    margin-bottom: 2%;
+}
+.mid_bottom_m{
+    margin-bottom: 4%;
+}
+
+/* END */
+
+/* Loan Page */
+
+.side_bar{
+    padding-top: 2%;
+}
+
+.select_box{
+    padding: 20px 0px;
+}
+
+.side_bar a{
+    background-color: goldenrod;
+    color: white;
+}
+
+.side_bar a:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.side_bar p{
+    padding-bottom: 5%;
+
+}
+
+.card-header{
+    background-color: #cfb266;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.card h5{
+    display: inline-block;
+    margin-left: 15px;
+    color: white;
+}
+
+
+/* .card-body{
+    background-color: #F3E9CD;
+    padding: 15px 0px 0px 20px;
+} */
+
+.bank_body{
+    background-color: #F3E9CD;
+    padding: 15px 0px 0px 20px;
+}
+.card-body a{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.card-body p{
+    color: black;
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.profit p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.profit h4{
+    text-align: center;
+    margin-top: 10%;
+    color: #333333;
+    font-weight: 700;
+}
+
+.installment h4{
+    text-align: right;
+    margin-top: 10%;
+    color: #333333;
+    font-weight: 700;
+}
+
+.installment p{
+    font-size: 12px;
+}
+
+.apply a{
+    background-color: goldenrod;
+    color: white;
+    margin: 50%;
+}
+
+/* Info Collapse Detail Css */
+
+.more_info{
+    background-color: #eedeba;
+}
+.info{
+    margin-top: 10px;
+    padding: 4px 10px;
+    background-color: #fdfbef;
+    border-color: #fdfbef;
+}
+
+.more_info_body{
+   padding: 10px 20px;
+}
+
+.more_info_body h4{
+    color: #77655b;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 5%;
+    line-height: 1.5;
+}
+
+.more_info_body p{
+    color: #a8774e;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.info_detail{
+    background-color: #f8eed3;
+}
+
+.box-detail{
+    padding: 15px 20px;
+}
+
+/* Features */
+
+.heading{
+    font-size: 16px;
+    color: #746659;
+}
+
+.box{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box .title{
+    color: #99815b;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.box .description{
+    color: #928676;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.box-detail a{
+    margin-left: 20%;
+    padding: 0px 200px;
+    background-color: goldenrod;
+    color: white;
+}
+
+/* Separate Banks  */
+
+.single-body .bank_body {
+    margin-top: 1%;
+    background-color: #ffff;
+}
+
+.single-body a{
+    color: #333;
+    font-weight: 700;
+}
+
+.single-body p{
+    color: black;
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.single-body .apply a{
+    color: white;
+    font-size: 16px;
+}
+
+.single-body .apply a:hover{
+
+    color: #607D8B;
+}
+
+
+/* Bank Detail Page */
+
+.bank_header{
+    margin-top: 2%;
+}
+
+.bank_header img{
+    min-height: 40px;
+    max-height: 70px;
+    width: 100%;
+}
+
+.bank_header h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bank_header p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.bank_header a{
+    background-color: #d7b150;
+    color: white;
+    margin-top: 5%;
+}
+
+.bank_header td{
+    color: black;
+}
+
+.bank_features{
+    margin-top: 2%;
+}
+
+.side_panel p{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+}
+
+.little_heading{
+    font-weight: bold;
+    margin-top: 5%;
+    color: black;
+    font-size: 16px;
+}
+
+.more_details p{
+    text-align: left;
+    color: black;
+}
+
+.large_btn{
+    display: block;
+    margin: auto;
+    width: 50%
+}
+/* Responsive CSS */
+
+@media only screen and (max-width: 988px) {
+    .bank_body a{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .bank_body p{
+        text-align: center;
+        font-size: 15px;
+        margin-right: 2%;
+    }
+
+    .bank_body .profit h4{
+        text-align: center;
+            margin-top: 4%;
+            color: #333333;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+    .bank_body .installment h4 {
+        text-align: center;
+        margin-top: 3%;
+        color: #333333;
+        font-weight: 700;
+  }
+
+  .bank_body .apply a{
+    margin-left: 39%;
+    margin-top: 2%;
+  }
+
+  .apply a{
+      margin: 0;
+  }
+
+  /* Side Bar */
+
+  .side_bar h3{
+      text-align: center;
+  }
+
+  .side_bar p{
+      text-align: center;
+  }
+
+  .side_bar a{
+      margin-left: 40%;
+  }
+
+  /* Bank Detail Page */
+
+  .bank_header h1{
+    margin-top: 3%;
+  }
+
+  
+
+  .bank_header a{
+      display: block;
+      margin: auto;
+      width: 50%;
+  }
+}

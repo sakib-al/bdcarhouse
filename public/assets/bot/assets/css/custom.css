@@ -1,0 +1,50 @@
+/* Chatbot Interface CSS */
+
+.chatbox-popup .chatbox-popup__footer{
+
+    margin-top:-20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+  }
+
+  .chatbox-popup .chatbox-popup__main{
+
+    padding: 15px 15px 70px;
+
+  }
+
+  .chatbox-popup{
+    height:500px;
+    width:350px;
+  }
+
+  .btn_a{
+
+   background-color: #232732!important;
+   border: none;
+   color: white;
+   padding: 4px 8px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   margin: 4px 2px;
+   cursor: pointer;
+   float:left;
+
+  }
+  .btn_a {border-radius: 12px;}
+  .btn_a:hover {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+  }
+  .btn_a {
+   background-color: #007bff;
+   color: white;
+  }
+
+  /* END */
